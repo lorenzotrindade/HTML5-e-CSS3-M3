@@ -1,0 +1,74 @@
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira Tabela</title>
+
+    <style>
+        BODY {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            border: 5px solid green;
+          
+        }
+
+        tr.linha{
+            background-color: gray;
+        }
+
+         td {
+            border: 1PX solid black;
+            padding: 8PX;
+        }
+
+        td.dado{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+  <h1> Primeira tabela </h1>
+
+  <!--
+  Hierarquias de tavelas simples:
+
+  table =tabela
+
+  table row= linha de tabela
+
+  table HEADER = cabeçalho
+  table  data =  dado de tabela
+  -->
+<table>
+    <tr> <!-- primeira linha-->
+        <td>A1</td>
+        <td>B1</td>
+        <td>C1</td>
+
+    </tr>
+    <TR class="linha">
+        <TD>A2</TD>
+        <TD>B2</TD>
+        <TD>C2</TD>
+    </TR>
+<TR>
+    <TD>A3</TD>
+    <TD>B3</TD>
+    <TD>C3</TD>
+</TR>
+
+<TR >
+    <TD>A4</TD>
+    <TD class="dado">B4</TD>
+    <TD>C4</TD>
+</TR>
+
+ </table>
+
+  
+</body>
+</html>
