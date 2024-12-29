@@ -1,0 +1,89 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+:root {
+    --fonte1:"Yatra One", serif;
+    --fonte2:"Rubik Vinyl", serif;
+    
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+    /* display: inline-flex; */
+}
+
+header {
+    background-color: black;
+    color: white;
+    
+    text-align: center;
+
+    padding: 50px;
+
+}
+
+ body {
+    
+    font-family:var(--fonte1);
+    font-size: 2em;
+    font-display: 2vh;
+
+}
+
+header, footer {
+    font-family: var(--fonte2);
+
+}
+
+section{
+    
+    padding:30px;
+    font-family:var(--fonte1)
+
+}
+
+section > p {
+    padding:10px;
+    display: inline-flex;
+    
+} 
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+   
+    color: white;
+    background-color:rgb(44, 44, 44);
+}
+
+
+
+section#img01{
+    background-image: url(../imagens/img01.jpg);
+    background-position: center center;
+  
+}
+
+section#imagem2 {
+    background-image: url(../imagens/img02.jpg);
+    background-position: center center;
+    
+    
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    
+}
