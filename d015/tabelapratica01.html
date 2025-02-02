@@ -1,0 +1,68 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+         body {
+            font-family: Arial, Helvetica, sans-serif;
+           
+
+            
+        }
+
+        thead {
+            
+            background-color: darkgray;
+        }
+        /* table{
+            border-collapse: collapse;
+            width: 300px;
+        
+        } */
+
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de células</h1>
+
+    <thead>
+        <td><strong>AREA</strong></td>
+        <td colspan="1"><strong>DISCIPLINAS</strong></td>
+        <td colspan="2"><strong>c</strong></td>
+    </thead>
+
+    <table>
+        <!-- <thead>
+            <td>AREA</td>
+            <td colspan="1">DISCIPLINAS</td>
+            <td colspan="2">c</td>
+        </thead> -->
+
+        <tbody>
+        <tr>
+            <td rowspan="2">d</td>
+            <td>e</td>
+            <td rowspan="3">f</td>
+        </tr>
+        <tr>
+           
+            <td>h</td>
+            <td>l</td>
+        </tr>
+        
+    </tbody>
+    <tfooter>
+
+
+    </tfooter>
+    </table>
+
+</body>
+</html>
