@@ -1,0 +1,159 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Grande</title>
+
+   <style>
+    
+    table {
+        border-collapse: collapse;
+        width: 500px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        
+      
+    }
+
+    thead > tr > th {
+        position: sticky;
+        top:-1px;
+        background-color: black;
+    }
+    thead, tfoot {
+         background-color: rgb(0, 0, 0);
+        color: white;
+    }
+ caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+    border: 1px solid  black;
+   }
+        tbody > tr:nth-child(2n) {
+        background-color: lightgray; 
+        }
+
+    td, th {
+        padding: 10px;
+        border: 1px solid black;
+    }
+    td.num{
+        text-align: right;
+    }
+
+    th.scope {
+        width:100px;
+    }
+
+   </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <th scope="col">Estado</th>
+            <th scope="col"  class="scope">População</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 167 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+
+            <tr>
+                <td>Paraná</td>
+                <td class="num">000000</td>
+            </tr>
+            <tr>
+                <td>RS</td>
+                <td class="num">000000</td>
+            </tr>
+            <tr>
+                <td>PE</td>
+                <td class="num">000000</td>
+            </tr>
+            <tr>
+                <td>CE</td>
+                <td class="num">000000</td>
+            </tr>
+            <tr>
+                <td>PARÁ</td>
+                <td class="num"> 806020865</td>
+            </tr>
+            <tr>
+                <td>SC</td>
+                <td class="num">00000000</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">0000</td>
+                
+            </tr>
+            <tr>
+                <td>GO</td>
+                <td class="num">00000</td>
+            </tr>
+            <tr>
+                <TD>AMAZONAS</TD>
+                <td class="num">00000</td>
+            </tr>
+            <tr>
+                <TD>ES</TD>
+                <td class="num">00000</td>
+            </tr>
+            <tr>
+                <TD>PARAÍBA</TD>
+                <td class="num">00000</td>
+            </tr>
+            <tr>
+                <TD>RN</TD>
+                <td class="num">00000</td>
+            </tr>
+
+            <tr>
+                <td>MT</td>
+                <td class="num">00000</td>
+            </tr>
+            <tr>
+                <TD>ALAGOAS</TD>
+                <td class="num">00000</td>
+            </tr>
+            <tr>
+                <TD>Pí</TD>
+                <td class="num">00000</td>
+            </tr>
+            <tr>
+                <td>DS</td>
+                <td class="num">00000</td>
+            </tr>
+            <tr>
+                <td>MATO GROSSO DO SUL</td>
+                <td class="num">0000</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <th scope="row">Total de habitantes</th>
+            
+                <td class="num"><strong>00000</strong></td>
+           
+        </tfoot>
+    </table>
+    
+</body>
+</html>
