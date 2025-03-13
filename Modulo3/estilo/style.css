@@ -1,5 +1,6 @@
 
 
+<<<<<<< Updated upstream
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
@@ -9,6 +10,11 @@
     --fonte2:'Passion One', serif;
     --fonte3:'Sriracha',cursive;
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+>>>>>>> Stashed changes
 
 *{
     margin: 0px;
