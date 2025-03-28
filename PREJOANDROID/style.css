@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    height: 20%;
+    background:linear-gradient(to bottom, #68ee68, #128612, #077a07);
+    padding: 40px;
+}
+
+header > h1 {
+    text-align: center;
+    color: aliceblue;
+    
+}  
+header > p {
+    text-align: center;
+    color: aliceblue;
+    padding: 5px;
+}
+
+ div#nav {
+   
+    background-color: #046604;
+
+}
+#nav > p {
+    display:inline-block;
+    padding: 5px;
+    color: aliceblue;
+   
+}
+
+body {
+    background-color: #dde29a;
+}
+
+section {
+    background-color: #dbf3db;
+    
+
+    padding: 0;
+    margin:0% 10% 0% 10% ;
+}
