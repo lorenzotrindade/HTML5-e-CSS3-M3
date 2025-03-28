@@ -34,12 +34,35 @@ header > p {
 
 body {
     background-color: #dde29a;
+    
 }
-
 section {
     background-color: #dbf3db;
+
+    width: max-content;
+    height: auto;
+
     
 
     padding: 0;
     margin:0% 10% 0% 10% ;
 }
+
+/* #divsec2 > li {
+
+    text-align: left;
+    padding-left: 2% ;
+}
+
+#divsec1 > li {
+
+    text-align: left;
+    margin: 0px 5px 10px 5px ;
+} */
+
+ul {
+    background-color: aquamarine;
+
+    margin: 5px auto 10px 30px; 
+}
+
