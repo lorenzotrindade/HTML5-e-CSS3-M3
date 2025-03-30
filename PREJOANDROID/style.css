@@ -8,61 +8,66 @@ header {
     background:linear-gradient(to bottom, #68ee68, #128612, #077a07);
     padding: 40px;
 }
+    .h1cabeca {
+        text-align:center;
+        color: #dbf3db;
+    }  
+    header > p {
+        text-align: center;
+        color: aliceblue;
+        padding: 5px;
+    }
 
-header > h1 {
-    text-align: center;
-    color: aliceblue;
+    div#nav {
     
-}  
-header > p {
-    text-align: center;
-    color: aliceblue;
-    padding: 5px;
-}
+        background-color: #046604;
 
- div#nav {
-   
-    background-color: #046604;
-
-}
-#nav > p {
-    display:inline-block;
-    padding: 5px;
-    color: aliceblue;
-   
-}
-
-body {
-    background-color: #dde29a;
+    }
+    #nav > p {
+        display:inline-block;
+        padding: 5px;
+        color: aliceblue;
     
-}
-section {
-    background-color: #dbf3db;
+    }
 
-    width: max-content;
-    height: auto;
+    body {
+        background-color: #dde29a;
+        width: 100%;
+        
+    }
+    section {
+
+        
+        background-color: #dbf3db;
+
+        width:80%;
+        
+        height: max-content;
+
+        
+
+        padding:1px;
+        margin:-0% 10% 0% 10% ;
+    }
+
+
+    ul {
+        background-color: aquamarine;
+
+        margin: 5px auto 10px 30px; 
+    }
 
     
+p {
+    
+    text-align:left;
 
-    padding: 0;
-    margin:0% 10% 0% 10% ;
+    padding-bottom:2px ;
+    padding-left: 20px;
+
 }
-
-/* #divsec2 > li {
-
-    text-align: left;
-    padding-left: 2% ;
-}
-
-#divsec1 > li {
-
-    text-align: left;
-    margin: 0px 5px 10px 5px ;
-} */
-
-ul {
-    background-color: aquamarine;
-
-    margin: 5px auto 10px 30px; 
-}
-
+ .divs {
+    margin-left: 1%;
+    margin-right: auto;
+    margin-top: 5px;
+ }
